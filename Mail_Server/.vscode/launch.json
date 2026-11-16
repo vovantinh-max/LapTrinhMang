@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Mail Server (Dashboard)",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Mail_Server"
+        },
+        {
+            "type": "java",
+            "name": "Mail Client (Gmail-like GUI)",
+            "request": "launch",
+            "mainClass": "client.MailClientGUI",
+            "projectName": "Mail_Server"
+        }
+    ]
+}

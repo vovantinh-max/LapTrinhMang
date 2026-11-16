@@ -1,0 +1,21 @@
+# Compiled class files
+*.class
+bin/
+**/bin/
+build/
+**/build/
+
+# Temporary SQLite files
+*.db-shm
+*.db-wal
+
+# Large binaries and tools
+ngrok.exe
+.ngrok*
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db

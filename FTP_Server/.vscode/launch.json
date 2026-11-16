@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "FTP Server (GUI)",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "FTP_Server"
+        },
+        {
+            "type": "java",
+            "name": "FTP Client (GUI)",
+            "request": "launch",
+            "mainClass": "client.FtpClientGUI",
+            "projectName": "FTP_Server"
+        },
+        {
+            "type": "java",
+            "name": "FTP Server (Console CLI)",
+            "request": "launch",
+            "mainClass": "server.FtpServer",
+            "projectName": "FTP_Server"
+        }
+    ]
+}

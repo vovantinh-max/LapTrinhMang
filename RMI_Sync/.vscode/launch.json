@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "RMI Dual Server Dashboard",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "RMI_Sync"
+        },
+        {
+            "type": "java",
+            "name": "RMI Client GUI",
+            "request": "launch",
+            "mainClass": "client.RmiClientGUI",
+            "projectName": "RMI_Sync"
+        }
+    ]
+}
